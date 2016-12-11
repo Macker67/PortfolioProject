@@ -1,0 +1,50 @@
+body{
+	padding:px;
+}
+.intro, .main{
+	background-image:url(upfeathers.png);
+}
+.heading, .footer, .work{
+	background:#eee;
+}
+h1{
+	font-style:elephant;
+	text-decoration:underline;
+	text-align:center;
+	font-size:160%;
+}
+h2{
+	text-align:center;
+	font-size:140%;
+}
+th{
+	text-decoration:underline;
+	padding:20px;
+}
+ul{
+	list-style-type:square;
+}
+img{
+	display: block;
+    margin: auto;
+	border-radius:25%;
+	height:275px;
+	width:275px;
+	padding:15px;
+}
+.row, .footer{
+	text-align:center;
+}
+.achievements, .lc, .jc{
+	text-align:initial;
+	padding:15px;
+}
+a.one:link{
+	color:blue;
+}
+a.one:visited{
+	color:#0000ff;
+}
+a.one:hover{
+	color:#ffcc00;
+}
