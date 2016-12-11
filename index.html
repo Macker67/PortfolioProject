@@ -5,7 +5,7 @@
 			Andrew McBride's Portfolio
 		</title>
 		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -18,22 +18,23 @@
 		<div class="navbar-static-top navbar-inverse">
 			<div class="container">
 				<div class="navbar-brand">
-					Home
+					My Portfolio
 				</div>
 				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
 					Menu
 				</button>
 				<div class="collapse navbar-collapse navHeaderCollapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#">About</a></li>
-						<li><a href="#">Work Experience</a></li>
-						<li><a href="#">Education/Achievements</a></li>
-						<li><a href="#">Contact</a><li>
+						<li><a href="#">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#work experience">Work Experience</a></li>
+						<li><a href="#education/achievements">Education/Achievements</a></li>
+						<li><a href="#contact">Contact</a><li>
 					</ul>
 				</div>
 			</div>
 		</div>
-		<div class="intro">
+		<div class="intro" id="about">
 			<div class="container">
 				<h1>Andrew McBride</h1>
 				<img src="Me.jpg" />
@@ -50,7 +51,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="work">
+		<div class="work" id="work experience">
 			<div class="container">
 				<h1>Work Experience</h1>
 			</div>
@@ -76,7 +77,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="main">
+		<div class="main" id="education/achievements">
 			<div class="row">
 				<div class="col-md-4">
 					<h1>Education</h1>
@@ -153,7 +154,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer">
+		<div class="footer" id="contact">
 			<div class="container">
 				<form action="action_page.php">
 					<fieldset>
@@ -169,9 +170,12 @@
 					<input type="submit" value="Submit">
 					</fieldset>
 				</form>
+				<br>
+				<a href="#home">Back to top</a>
 			</div>
 		</div>	
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="js/bootstrap.js"></script>
 		<script>
 			$(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
